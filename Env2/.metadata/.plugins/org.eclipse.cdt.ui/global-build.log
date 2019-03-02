@@ -1,18 +1,15 @@
-10:53:58 **** Incremental Build of configuration Debug for project Ex1 ****
+12:05:42 **** Incremental Build of configuration Debug for project Ex2 ****
 make all 
-Building file: ../src/Ex1.cpp
+Building file: ../src/Ex2.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ex1.d" -MT"src/Ex1.o" -o "src/Ex1.o" "../src/Ex1.cpp"
-Finished building: ../src/Ex1.cpp
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ex2.d" -MT"src/Ex2.o" -o "src/Ex2.o" "../src/Ex2.cpp"
+Finished building: ../src/Ex2.cpp
  
-Building target: Ex1
+Building target: Ex2
 Invoking: GCC C++ Linker
-g++  -o "Ex1"  ./src/Ex1.o ./src/Sphere.o   
-Finished building target: Ex1
+g++  -o "Ex2"  ./src/Ex2.o   
+Finished building target: Ex2
  
-10:53:59 **** Incremental Build of configuration Debug for project Ex1 ****
-make all 
-make: rien à faire pour « all ».
-10:54:08 **** Incremental Build of configuration Debug for project Ex1 ****
+12:05:42 **** Incremental Build of configuration Debug for project Ex2 ****
 make all 
 make: rien à faire pour « all ».

@@ -1,0 +1,55 @@
+//============================================================================
+// Name        : Ex2.cpp
+// Author      : Philippe Boisseau
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <sstream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	cout << "Entrer votre nom" << endl;
+
+	string nom;
+	char buffer[256];
+	cin.getline(buffer,256);
+	nom = buffer;
+
+	cout << "Entrer votre prenom" << endl;
+
+	string prenom;
+	cin.getline(buffer,256);
+	prenom = buffer;
+
+	cout << "Entrer votre date de naissance format (yyyy-mm-dd)" << endl;
+
+	string date;
+	cin.getline(buffer,256);
+	date = buffer;
+
+	cout << prenom << endl;
+	cout << nom << endl;
+	cout << date << endl;
+
+	stringstream chaine(date);
+	string annee;
+	string mois;
+	string jour;
+	cout << chaine.str() << endl;
+	chaine.getline(buffer, '-');
+
+	cout << annee << endl;
+	annee = buffer;
+
+	cout << annee << endl;
+	cout << mois << endl;
+	cout << jour << endl;
+
+
+	return 0;
+}
