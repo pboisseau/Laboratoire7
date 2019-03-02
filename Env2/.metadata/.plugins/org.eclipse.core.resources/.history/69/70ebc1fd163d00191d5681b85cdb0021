@@ -1,0 +1,20 @@
+//============================================================================
+// Name        : Ex4.cpp
+// Author      : Philippe Boisseau
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+long long factorielle(int n)
+{
+	return 123123123;
+}
+	return 0;
+}

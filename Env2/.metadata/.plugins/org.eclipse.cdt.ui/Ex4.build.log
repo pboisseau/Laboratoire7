@@ -10,3 +10,6 @@ Invoking: GCC C++ Linker
 g++  -o "Ex4"  ./src/Ex4.o   
 Finished building target: Ex4
  
+
+13:23:31 Build Finished (took 426ms)
+
