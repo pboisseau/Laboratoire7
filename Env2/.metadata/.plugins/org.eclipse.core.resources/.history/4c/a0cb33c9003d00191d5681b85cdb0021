@@ -1,0 +1,34 @@
+/**
+ * \file Shpere.h
+ * \brief 
+ * \date 2019-03-02
+ * \author: etudiant
+ */
+
+#ifndef SHPERE_H_
+#define SHPERE_H_
+
+#include <string>
+
+class Shpere
+{
+
+public:
+
+	Shpere(double p_rayon);
+
+	const double reqRayon() const;
+
+	double asgRayon(const double& p_rayon);
+
+	const double& reqVolume() const;
+
+	std::string reqVolumeFormate() const;
+
+
+private:
+
+	double m_rayon;
+};
+
+#endif /* SHPERE_H_ */

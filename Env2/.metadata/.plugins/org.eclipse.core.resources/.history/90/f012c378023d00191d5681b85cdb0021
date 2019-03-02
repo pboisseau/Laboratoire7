@@ -1,0 +1,43 @@
+/**
+ * \file Shpere.cpp
+ * \brief 
+ * \date 2019-03-02
+ * \author: etudiant
+ */
+
+#include "Sphere.h"
+#include <math.h>
+#include <string>
+
+Sphere::Sphere(double p_rayon):m_rayon(p_rayon){}
+
+
+const double& Sphere::reqRayon() const
+{
+	return m_rayon;
+}
+
+
+void Sphere::asgRayon(const double& p_rayon)
+{
+	m_rayon = p_rayon;
+}
+
+
+const double Sphere::reqVolume() const
+{
+	double volume;
+	double pi = 3.14159;
+
+	volume = (4 / 3) * pi * pow(m_rayon, 3);
+
+	return volume;
+}
+
+
+std::string Sphere::reqVolumeFormate() const
+{
+	ostringstream os;
+
+
+}

@@ -1,0 +1,11 @@
+/**
+ * \file Shpere.cpp
+ * \brief 
+ * \date 2019-03-02
+ * \author: etudiant
+ */
+
+#include "Shpere.h"
+
+Shpere::Shpere(double p_rayon):m_rayon(p_rayon){}
+

@@ -1,18 +1,18 @@
-16:15:22 **** Incremental Build of configuration Debug for project LibTP ****
+10:53:58 **** Incremental Build of configuration Debug for project Ex1 ****
 make all 
-Building file: ../src/validationFormat.cpp
+Building file: ../src/Ex1.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/validationFormat.d" -MT"src/validationFormat.o" -o "src/validationFormat.o" "../src/validationFormat.cpp"
-Finished building: ../src/validationFormat.cpp
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ex1.d" -MT"src/Ex1.o" -o "src/Ex1.o" "../src/Ex1.cpp"
+Finished building: ../src/Ex1.cpp
  
-Building target: LibTP
+Building target: Ex1
 Invoking: GCC C++ Linker
-g++  -o "LibTP"  ./src/Reference.o ./src/gestionReferences.o ./src/validationFormat.o   
-Finished building target: LibTP
+g++  -o "Ex1"  ./src/Ex1.o ./src/Sphere.o   
+Finished building target: Ex1
  
-16:16:58 **** Incremental Build of configuration Debug for project LibTP ****
+10:53:59 **** Incremental Build of configuration Debug for project Ex1 ****
 make all 
 make: rien à faire pour « all ».
-16:17:20 **** Incremental Build of configuration Debug for project LibTP ****
+10:54:08 **** Incremental Build of configuration Debug for project Ex1 ****
 make all 
 make: rien à faire pour « all ».

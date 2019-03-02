@@ -1,0 +1,17 @@
+/**
+ * \file Shpere.h
+ * \brief 
+ * \date 2019-03-02
+ * \author: etudiant
+ */
+
+#ifndef SHPERE_H_
+#define SHPERE_H_
+
+class Shpere
+{
+public:
+	Shpere();
+};
+
+#endif /* SHPERE_H_ */
