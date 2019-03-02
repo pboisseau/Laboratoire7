@@ -1,0 +1,41 @@
+//============================================================================
+// Name        : Ex3.cpp
+// Author      : Philippe Boisseau
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <sstream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	const int MAXTABLEAU = 100;
+	string maTable[MAXTABLEAU];
+
+	cout << "Entrer votre nom" << endl;
+
+	string nom;
+	char buffer[256];
+	cin.getline(buffer,256);
+	nom = buffer;
+
+	cout << "Entrer votre prenom" << endl;
+
+	string prenom;
+	cin.getline(buffer,256);
+	prenom = buffer;
+
+	string concat;
+
+	cout << prenom[0];
+
+	concat.append(prenom);
+	cout << concat;
+
+
+	return 0;
+}

@@ -1,0 +1,80 @@
+//============================================================================
+// Name        : Ex3.cpp
+// Author      : Philippe Boisseau
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <unistd.h>
+using namespace std;
+
+int main()
+{
+	bool fin = true;
+	const int MAXTABLEAU = 100;
+	string maTable[MAXTABLEAU];
+	int counter = 0;
+
+	while(fin)
+	{
+		cout << "Entrer votre nom" << endl;
+
+		string nom;
+		char buffer[256];
+		cin.getline(buffer,256);
+		nom = buffer;
+
+		cout << "Entrer votre prenom" << endl;
+
+		string prenom;
+		cin.getline(buffer,256);
+		prenom = buffer;
+
+		string concat;
+
+		concat.append(prenom.substr(0,1));
+		concat.append(nom.substr(0,1));
+
+		int counter1 = 1;
+		if(counter == 0)
+		{
+			concat.append(to_string(counter1));
+		}
+		else
+		{
+			int counter2 = 1;
+			for(int i = 0; i <= counter; i++)
+			{
+				if(maTable[i].substr(0,2) == concat)
+				{
+					counter2 += 1;
+				}
+			}
+			concat.append(to_string(counter2));
+		}
+
+		maTable[counter] = concat;
+
+		counter += 1;
+
+		string question = "";
+		cout << "Voulez-vous terminer le prog? (y ou n)" << endl;
+		cin >> question;
+
+		if(question == "y") fin = false;
+		cin.ignore();
+
+	}
+
+	for(int i = 0; i < counter; i++)
+	{
+		cout << maTable[i] << endl;
+		sleep(1);
+	}
+
+	return 0;
+}

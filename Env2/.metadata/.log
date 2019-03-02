@@ -4983,3 +4983,6 @@ Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.pa
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-03-02 10:54:44.402
 !MESSAGE Indexed 'Ex2' (1 sources, 147 headers) in 1,64 sec: 12 565 declarations; 20 356 references; 0 unresolved inclusions; 4 syntax errors; 19 unresolved names (0,058 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-03-02 12:07:24.972
+!MESSAGE Indexed 'Ex3' (1 sources, 147 headers) in 1,59 sec: 12 565 declarations; 20 356 references; 0 unresolved inclusions; 4 syntax errors; 19 unresolved names (0,058 %)
