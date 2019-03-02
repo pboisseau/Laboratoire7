@@ -1,0 +1,32 @@
+/**
+ * \file programmePrincipal.cpp
+ * \brief Programme ...
+ * A corriger
+ */
+
+#include <iostream>
+#include "fonctionsUtilitaires.h"
+using namespace std;
+
+int main()
+{
+	int nbEleves;
+	int tabNotes[MAX_ETUDIANTS][MAX_EXAMENS];
+	bool valeurCorrecte = false;
+	while (valeurCorrecte == false)
+	{
+		cout << "Saisissez le nombre d'eleves" << endl;
+		cin >> nbEleves;
+		if (nbEleves > 0 and nbEleves < 5 )
+		{
+			valeurCorrecte = true;
+		}
+	}
+	saisieNotes(tabNotes, &nbEleves);
+	cout << "note minimum : " << minimum(tabNotes, &nbEleves) << endl;
+	cout << "note maximum :" << maximum(tabNotes, &nbEleves) << endl;
+	cout << "ecart type : " << ecartType(tabNotes[0]) << endl;
+	cout << "ensemble des notes :" << endl;
+	afficherTableau(tabNotes, &nbEleves);
+	return 0;
+}

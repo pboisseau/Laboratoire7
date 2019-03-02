@@ -1,0 +1,6 @@
+14:24:05 **** Incremental Build of configuration Debug for project Ex2 ****
+make all 
+Cannot run program "make": Unknown reason
+
+14:24:05 Build Finished (took 15ms)
+

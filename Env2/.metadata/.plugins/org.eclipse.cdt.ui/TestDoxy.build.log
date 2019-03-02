@@ -1,0 +1,20 @@
+10:56:53 **** Build of configuration Debug for project TestDoxy ****
+make all 
+Building file: ../src/TestDoxy.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestDoxy.d" -MT"src/TestDoxy.o" -o "src/TestDoxy.o" "../src/TestDoxy.cpp"
+Finished building: ../src/TestDoxy.cpp
+ 
+Building file: ../src/test.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.o" -o "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: TestDoxy
+Invoking: GCC C++ Linker
+g++  -o "TestDoxy"  ./src/TestDoxy.o ./src/test.o   
+Finished building target: TestDoxy
+ 
+
+10:56:54 Build Finished (took 745ms)
+

@@ -1,0 +1,20 @@
+/*
+ * fonctionsUtilitaires.h
+ *
+ *  Created on: 2019-01-10
+ *      Author: theud1
+ *      A corriger
+ */
+
+#ifndef FONCTIONSUTILITAIRES_H_
+#define FONCTIONSUTILITAIRES_H_
+
+static const int MAX_EXAMENS = 2;
+
+
+void saisieNotes(int tabNotes[][MAX_EXAMENS]);
+int minimum(int tabNotes[][MAX_EXAMENS], int*);
+int maximum(int tabNotes[][MAX_EXAMENS], int*);
+double ecartType (int tabNotesEtudiant[MAX_EXAMENS]);
+
+#endif /* FONCTIONSUTILITAIRES_H_ */

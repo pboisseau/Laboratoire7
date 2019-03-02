@@ -1,0 +1,15 @@
+12:11:22 **** Incremental Build of configuration Debug for project Lab3.5 ****
+make all 
+Building file: ../src/fonctions.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fonctions.d" -MT"src/fonctions.o" -o "src/fonctions.o" "../src/fonctions.cpp"
+Finished building: ../src/fonctions.cpp
+ 
+Building target: Lab3.5
+Invoking: GCC C++ Linker
+g++  -o "Lab3.5"  ./src/fonctions.o ./src/principal.o   
+Finished building target: Lab3.5
+ 
+
+12:11:23 Build Finished (took 429ms)
+
